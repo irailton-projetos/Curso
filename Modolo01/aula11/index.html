@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula11</title>
+</head>
+<body>
+    <h1>imagens que se adaptam sozinhas para melhor experiencia do user </h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="foto-m.png" type="image/png">
+        <img src="foto-g.png" alt="image flexivel">
+    </picture>
+
+    <h1>vamos trabalhar com audio nesse paragrafo</h1>
+    <p>contexto simples</p>
+    <audio src="Bratt.mp3" controls ></audio>
+
+    <h2>contexto complexo</h2>
+    <p>trabalhando com varios formato de audio. mp3,wev,ogg. 
+    <br><mark>caso o navegador nao aceite no formato MP3</mark> ai usamos outros formatos</p>
+    <audio preload="metadata" controls autoplay >
+        <source src="Bratt.mp3" type="audio/mpeg">
+        <source src="Bratt.ogg" type="audio/ogg">
+        <source src="Bratt.wev" type="audio/wev">
+        <p>seu navegador nao aceita os formatos de audio faca o Download
+        <br><a href="Bratt.mp3">baixar audio</a>
+        </p>
+    </audio>
+</body>
+</html>

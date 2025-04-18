@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+
+h1{
+    color: rgb(230, 230, 0);
+}
+
+p{
+    text-align: initial;
+
+}
+
+h2{
+    color: rgb(46, 92, 0);
+}
+
+/*usando a identificao com a teg "id" para priorisar um elemento espesifico */
+h1#principal{
+    text-align: center;
+    box-shadow: 4px 4px 15px rgb(226, 3, 247);
+    width: 1000px;
+    color: rgb(241, 85, 255);
+}
+
+/*vamos usar o "Class" para espesificar varios elementos ao mesmo tempo utilizando o . (ponto)*/
+
+.base{
+    color: blueviolet;
+}
+.suporte{
+    color: rgb(141, 141, 255);
+}

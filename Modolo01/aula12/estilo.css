@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(0, 61, 63);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    
+}
+h1{
+    text-align: center;
+    text-decoration-color: rgb(212, 15, 153);
+    color: blueviolet;
+}
+p{
+    text-align: center;
+}
